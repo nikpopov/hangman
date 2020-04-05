@@ -1,86 +1,87 @@
+const PATH = "../../hangman/images/";
 const images = [
   {
     name: "bar",
     width: "224px",
     height: "38px",
-    backgroundImage: "../../g2/images/bar.png",
+    backgroundImage: PATH + "bar.png",
     imageClass: "imageBar"
   },
   {
     name: "head",
     width: "96px",
     height: "106px",
-    backgroundImage: "../../g2/images/head.png",
+    backgroundImage: PATH + "head.png",
     imageClass: "imageHead"
   },
   {
     name: "neck",
     width: "23px",
     height: "33px",
-    backgroundImage: "../../g2/images/neck.png",
+    backgroundImage: PATH + "neck.png",
     imageClass: "imageNeck"
   },
   {
     name: "corpus",
     width: "53px",
     height: "84px",
-    backgroundImage: "../../g2/images/corpus.png",
+    backgroundImage: PATH + "corpus.png",
     imageClass: "imageCorpus"
   },
   {
     name: "leftArm",
     width: "63px",
     height: "61px",
-    backgroundImage: "../../g2/images/left-arm.png",
+    backgroundImage: PATH + "left-arm.png",
     imageClass: "imageLeftArm"
   },
   {
     name: "leftHand",
     width: "15px",
     height: "15px",
-    backgroundImage: "../../g2/images/left-hand.png",
+    backgroundImage: PATH + "left-hand.png",
     imageClass: "imageLeftHAnd"
   },
   {
     name: "rightArm",
     width: "63px",
     height: "61px",
-    backgroundImage: "../../g2/images/right-arm.png",
+    backgroundImage: PATH + "right-arm.png",
     imageClass: "imageRightArm"
   },
   {
     name: "rightHand",
     width: "15px",
     height: "15px",
-    backgroundImage: "../../g2/images/right-hand.png",
+    backgroundImage: PATH + "right-hand.png",
     imageClass: "imageRightHand"
   },
   {
     name: "leftLeg",
     width: "41px",
     height: "89px",
-    backgroundImage: "../../g2/images/left-leg.png",
+    backgroundImage: PATH + "left-leg.png",
     imageClass: "imageLeftLeg"
   },
   {
     name: "leftFoot",
     width: "42px",
     height: "18px",
-    backgroundImage: "../../g2/images/left-foot.png",
+    backgroundImage: PATH + "left-foot.png",
     imageClass: "imageLeftFoot"
   },
   {
     name: "rightLeg",
     width: "41px",
     height: "89px",
-    backgroundImage: "../../g2/images/right-leg.png",
+    backgroundImage: PATH + "right-leg.png",
     imageClass: "imageRightLeg"
   },
   {
     name: "rightFoot",
     width: "42px",
     height: "18px",
-    backgroundImage: "../../g2/images/right-foot.png",
+    backgroundImage: PATH + "right-foot.png",
     imageClass: "imageRightFoot"
   }
 ];
